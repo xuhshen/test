@@ -7,3 +7,6 @@ echo .pydevproject >>.gitignore   	#把 .pydevproject 追加到.gitignore 文件
 git add  .gitignore test/    		#把.gitignore test/  丢到仓库里
 git commit -m "initial"     		 #打上标签
 git log -2    						#查看最新两条的标签记录
+
+
+git checkout -- "*"                 # 把目录下所有文件恢复到最后一条标签的的状态
