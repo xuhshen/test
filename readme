@@ -10,3 +10,10 @@ git log -2    						#查看最新两条的标签记录
 
 
 git checkout -- "*"                 # 把目录下所有文件恢复到最后一条标签的的状态
+
+git checkout b4efb193c2714e         #取出标签为b4efb193c2714e 的代码
+
+git remote add origin https://github.com/xuhshen/test.git 
+git push origin HEAD:master
+
+git pull --rebase
