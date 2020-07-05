@@ -16,14 +16,21 @@ months = [
 ]
 
 # A list with one ending for each number from 1 to 31
-endings = ['st', 'nd', 'rd'] + 17 * ['th'] \
-        + ['st', 'nd', 'rd'] +  7 * ['th'] \
-        + ['st']
+endings = ['st', 'nd', 'rd'] + 17 * ['th'] + \
+          ['st', 'nd', 'rd'] +  7 * ['th'] + \
+          ['st']
+        
+print(endings)
+print("[1     ,       2,3]"[2])
+abc=1234
+print(abc)
 
+print(input("stop:"))
 year    = input('Year: ')
 month   = input('Month  (1-12): ')
 day     = input('Day (1-31): ')
 
+print(day)
 month_number = int(month)
 day_number = int(day)
 
@@ -32,3 +39,9 @@ month_name = months[month_number-1]
 ordinal = day + endings[day_number-1]
 
 print(month_name + ' ' + ordinal + ', ' + year)
+
+
+
+
+
+
