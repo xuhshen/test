@@ -41,3 +41,5 @@ if request == 'a': key = 'addr'
 # Only try to print information if the name is a valid key in
 # our dictionary:
 if name in people: print("{}'s {} is {}.".format(name, labels[key], people[name][key]))
+
+
